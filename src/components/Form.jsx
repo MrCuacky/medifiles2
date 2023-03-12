@@ -28,6 +28,7 @@ function Form() {
           </label>
           <div class="relative">
             <select class="block appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-carrera" required>
+              <option>-----</option>
               <option>TSU en Desarrollo de Negocios Área Mercadotecnia</option>
               <option>TSU en Diseño Digital Área Animación</option>
               <option>TSU en Energías Renovables Área Calidad y Ahorro De Energía</option>
@@ -64,6 +65,7 @@ function Form() {
           </label>
           <div class="relative">
             <select class="block appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-state" required>
+              <option>--</option>
               <option>Si</option>
               <option>No</option>
             </select>
